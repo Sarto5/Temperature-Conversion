@@ -1,0 +1,49 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 11%, 89%);
+}
+
+h1{
+    color: #031299;
+}
+
+form{
+     background-color: hsl(0, 0%, 100%);
+     width: 25em;
+     margin-left: 28em;
+     text-align: center;
+     padding: 25px;
+     border-radius: 30px;
+     margin-top: 8em;
+     box-shadow: 15px 15px 45px rgb(0, 149, 160);
+    } 
+    #textbox{
+        width: 50%;
+        text-align: center;
+        font-family:Arial Narrow Bold;
+        font-size: 2em;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    #Submit{
+        border-radius:5px;
+        background-color: hsl(135, 92%, 31%);
+        cursor: pointer;
+        font-size:1.5em;
+        border: none;
+        padding: 10px 15px;
+        
+    }
+    #Submit:hover{
+        background-color: #82e7eb;
+    }   
+
+    label{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #result{
+        font-size: 1.75em;
+        font-weight: bold;
+    }
